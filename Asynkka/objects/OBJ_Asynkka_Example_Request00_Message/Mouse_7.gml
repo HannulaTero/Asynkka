@@ -1,4 +1,4 @@
-/// @desc MESSAGE.
+/// @desc MAKE REQUEST.
 
 // This uses convenience function to make the request.
 // -> Callback is called always when request-id related happens.

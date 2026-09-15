@@ -29,6 +29,7 @@
   },
   "name":"Asynkka",
   "resources":[
+    {"id":{"name":"FNT_Asynkka_Example","path":"fonts/FNT_Asynkka_Example/FNT_Asynkka_Example.yy",},},
     {"id":{"name":"NOTE_Asynkka_LICENSE","path":"notes/NOTE_Asynkka_LICENSE/NOTE_Asynkka_LICENSE.yy",},},
     {"id":{"name":"NOTE_Asynkka_README","path":"notes/NOTE_Asynkka_README/NOTE_Asynkka_README.yy",},},
     {"id":{"name":"__OBJ_Asynkka_Manager","path":"objects/__OBJ_Asynkka_Manager/__OBJ_Asynkka_Manager.yy",},},
@@ -80,6 +81,8 @@
     {"id":{"name":"AsynkkaListener","path":"scripts/AsynkkaListener/AsynkkaListener.yy",},},
     {"id":{"name":"AsynkkaRequest","path":"scripts/AsynkkaRequest/AsynkkaRequest.yy",},},
     {"id":{"name":"SND_Asynkka_Example","path":"sounds/SND_Asynkka_Example/SND_Asynkka_Example.yy",},},
+    {"id":{"name":"SPR_Asynkka_Example_ButtonListener","path":"sprites/SPR_Asynkka_Example_ButtonListener/SPR_Asynkka_Example_ButtonListener.yy",},},
+    {"id":{"name":"SPR_Asynkka_Example_ButtonRequest","path":"sprites/SPR_Asynkka_Example_ButtonRequest/SPR_Asynkka_Example_ButtonRequest.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

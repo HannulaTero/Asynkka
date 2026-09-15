@@ -1,5 +1,4 @@
-/// @desc CLEAN-UP & REMOVE
+/// @desc CLEAN-UP.
 
 buffer_delete(self.buffer);
 
-self.handle.Remove();

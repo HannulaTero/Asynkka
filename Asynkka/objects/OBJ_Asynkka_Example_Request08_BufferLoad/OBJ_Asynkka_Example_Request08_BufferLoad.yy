@@ -2,8 +2,9 @@
   "$GMObject":"",
   "%Name":"OBJ_Asynkka_Example_Request08_BufferLoad",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"OBJ_Asynkka_Example_Request08_BufferLoad",
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"SPR_Asynkka_Example_ButtonRequest",
+    "path":"sprites/SPR_Asynkka_Example_ButtonRequest/SPR_Asynkka_Example_ButtonRequest.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
