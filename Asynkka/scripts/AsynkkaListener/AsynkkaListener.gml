@@ -18,6 +18,7 @@ function AsynkkaListener(_event=undefined) constructor
   static SetContext   = __AsynkkaListener__SetContext;
   static SetEvent     = __AsynkkaListener__SetEvent;
   static SetLabel     = __AsynkkaListener__SetLabel;
+  static SetOnRemove  = __AsynkkaListener__SetOnRemove;
   static SetTimeOut   = __AsynkkaListener__SetTimeOut;
   
   
@@ -52,6 +53,11 @@ function AsynkkaListener(_event=undefined) constructor
   // -> Listenere is fired before requests.
   // @ignore
   self.Callback = Asynkka_SignatureCallback;
+    
+    
+  // Executed when listener is removed.
+  // @ignore
+  self.OnRemove = Asynkka_SignatureCallback;
   
   
   #endregion

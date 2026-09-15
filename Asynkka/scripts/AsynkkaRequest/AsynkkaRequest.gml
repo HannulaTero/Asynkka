@@ -19,7 +19,9 @@ function AsynkkaRequest(_request=undefined) constructor
   static SetLabel     = __AsynkkaRequest__SetLabel;
   static SetOnFailure = __AsynkkaRequest__SetOnFailure;
   static SetOnPending = __AsynkkaRequest__SetOnPending;
+  static SetOnRemove  = __AsynkkaRequest__SetOnRemove;
   static SetOnSuccess = __AsynkkaRequest__SetOnSuccess;
+  static SetOnTimeOut = __AsynkkaRequest__SetOnTimeOut;
   static SetRequest   = __AsynkkaRequest__SetRequest;
   static SetTimeOut   = __AsynkkaRequest__SetTimeOut;
   
@@ -70,6 +72,11 @@ function AsynkkaRequest(_request=undefined) constructor
   // Only fired whenever async-event is pending.
   // @ignore
   self.OnPending = Asynkka_SignatureCallback;
+  
+  
+  // Executed when listener is removed.
+  // @ignore
+  self.OnRemove = Asynkka_SignatureCallback;
     
     
   // Only fired whenever async-event is failed.

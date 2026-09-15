@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"asynkka_listener",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"asynkka_listener",
+  "parent":{
+    "name":"Asynkka",
+    "path":"folders/Asynkka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
