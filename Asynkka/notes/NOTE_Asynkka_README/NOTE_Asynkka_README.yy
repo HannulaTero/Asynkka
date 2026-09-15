@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"NOTE_Asynkka_README",
+  "name":"NOTE_Asynkka_README",
+  "parent":{
+    "name":"Asynkka",
+    "path":"folders/Asynkka.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

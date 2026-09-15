@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__Asynkka_GenerateLabel",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__Asynkka_GenerateLabel",
+  "parent":{
+    "name":"Managing",
+    "path":"folders/Asynkka/__Private/Managing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

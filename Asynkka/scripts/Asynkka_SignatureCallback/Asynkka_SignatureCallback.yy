@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Asynkka_SignatureCallback",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Asynkka_SignatureCallback",
+  "parent":{
+    "name":"Asynkka",
+    "path":"folders/Asynkka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

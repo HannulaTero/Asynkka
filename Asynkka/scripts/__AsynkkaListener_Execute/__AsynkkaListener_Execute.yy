@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__AsynkkaListener_Execute",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__AsynkkaListener_Execute",
+  "parent":{
+    "name":"Managing",
+    "path":"folders/Asynkka/__Private/Managing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
