@@ -11,6 +11,12 @@ function __AsynkkaListener__Remove()
   static context    = __Asynkka_Context();
   static listeners  = context.listeners; 
   
+  if (self.isRemoved == true)
+  {
+    return undefined;
+  }
+  
+  self.isRemoved = true;
   self.OnRemove();
   
   var _array = listeners[? self.event];

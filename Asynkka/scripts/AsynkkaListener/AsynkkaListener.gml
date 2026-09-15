@@ -47,6 +47,11 @@ function AsynkkaListener(_event=undefined) constructor
   // Reference to timesource, used to time-out the request.
   // @ignore 
   self.timeOut = undefined;
+  
+  
+  // Flag whether this has been removed already.
+  // @ignore
+  self.isRemoved = false;
     
     
   // Called either way whenever request id fires async event.

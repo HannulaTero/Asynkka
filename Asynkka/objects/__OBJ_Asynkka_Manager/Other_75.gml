@@ -2,5 +2,5 @@
 
 __AsynkkaListener_Execute();
 
-__AsynkkaRequest_ExecuteSimple();
+__AsynkkaRequest_Execute();
 

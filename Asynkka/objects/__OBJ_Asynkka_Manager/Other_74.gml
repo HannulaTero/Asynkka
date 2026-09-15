@@ -2,5 +2,5 @@
 
 __AsynkkaListener_Execute();
 
-__AsynkkaRequest_ExecuteSimple("queue_id");
+__AsynkkaRequest_Execute("queue_id");
 

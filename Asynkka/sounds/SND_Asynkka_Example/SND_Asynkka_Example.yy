@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"SND_Asynkka_Example",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.054966,
+  "exportDir":"",
+  "name":"SND_Asynkka_Example",
+  "parent":{
+    "name":"Assets",
+    "path":"folders/Asynkka x Examples/Assets.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_Asynkka_Example.ogg",
+  "volume":1.0,
+}

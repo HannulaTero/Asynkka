@@ -12,6 +12,12 @@ function __AsynkkaRequest__Remove()
   static context  = __Asynkka_Context();
   static requests = context.requests; 
   
+  if (self.isRemoved == true)
+  {
+    return undefined;
+  }
+  
+  self.isRemoved = true;
   self.OnRemove();
   
   ds_map_delete(requests, self.request);

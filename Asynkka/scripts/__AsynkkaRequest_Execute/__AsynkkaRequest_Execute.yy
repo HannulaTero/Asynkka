@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"__AsynkkaRequest_ExecuteSimple",
+  "%Name":"__AsynkkaRequest_Execute",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__AsynkkaRequest_ExecuteSimple",
+  "name":"__AsynkkaRequest_Execute",
   "parent":{
     "name":"Managing",
     "path":"folders/Asynkka/__Private/Managing.yy",

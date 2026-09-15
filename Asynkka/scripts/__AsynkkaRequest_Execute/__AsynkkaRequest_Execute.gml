@@ -7,7 +7,7 @@
 * @param {String} _key What is being accessed.
 * @ignore
 */ 
-function __AsynkkaRequest_ExecuteSimple(_key="id")
+function __AsynkkaRequest_Execute(_key="id")
 {
   with(self.requests[? async_load[? _key]])
   {
