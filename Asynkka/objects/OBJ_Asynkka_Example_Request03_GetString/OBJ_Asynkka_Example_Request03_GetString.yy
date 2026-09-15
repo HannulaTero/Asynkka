@@ -10,8 +10,8 @@
   "name":"OBJ_Asynkka_Example_Request03_GetString",
   "overriddenProperties":[],
   "parent":{
-    "name":"Asynkka x Examples",
-    "path":"folders/Asynkka x Examples.yy",
+    "name":"Examples Request",
+    "path":"folders/Asynkka x Examples/Examples Request.yy",
   },
   "parentObjectId":null,
   "persistent":false,

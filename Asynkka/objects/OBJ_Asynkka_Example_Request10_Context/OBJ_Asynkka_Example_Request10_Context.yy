@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_Asynkka_Example_Request00_Message",
+  "%Name":"OBJ_Asynkka_Example_Request10_Context",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_Asynkka_Example_Request00_Message",
+  "name":"OBJ_Asynkka_Example_Request10_Context",
   "overriddenProperties":[],
   "parent":{
     "name":"Examples Request",

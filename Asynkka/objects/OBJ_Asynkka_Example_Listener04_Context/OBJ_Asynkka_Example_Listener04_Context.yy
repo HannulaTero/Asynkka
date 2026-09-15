@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_Asynkka_Example_Request00_Message",
+  "%Name":"OBJ_Asynkka_Example_Listener04_Context",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_Asynkka_Example_Request00_Message",
+  "name":"OBJ_Asynkka_Example_Listener04_Context",
   "overriddenProperties":[],
   "parent":{
-    "name":"Examples Request",
-    "path":"folders/Asynkka x Examples/Examples Request.yy",
+    "name":"Examples Listen",
+    "path":"folders/Asynkka x Examples/Examples Listen.yy",
   },
   "parentObjectId":null,
   "persistent":false,
