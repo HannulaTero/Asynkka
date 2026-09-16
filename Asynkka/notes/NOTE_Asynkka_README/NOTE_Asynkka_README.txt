@@ -6,6 +6,12 @@ Tero Hannula 16.9.2026
 GENERAL INFORMATION
 ===============================================================
 
+Asynkka makes using async-related functions more convenient
+by giving callback-wrappers for them. You can define callbacks
+for whenever request is succesful, failure, pending, timed out or pending.
+Then there is general callback, which is fired whenever async-event is done with request id.
+Asynkka also allows making listeners, which fire callbacks always related async-event happens.
+
 Examples provide explanations in their source code, 
 on how to use Asynkka and what something does.
 
