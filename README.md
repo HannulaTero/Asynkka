@@ -1,5 +1,8 @@
 # Asynkka
 ### [GameMaker] Async-event wrapper for requests and listeners.
+<img width="128" height="128" align="right" alt="icon-Asynkka" src="https://github.com/user-attachments/assets/1597e4a2-64e6-4dbf-a634-63c45fce6605" />
+
+
 [Itchio page](https://terohannula.itch.io/asynkka)
 
 ---
