@@ -1,10 +1,15 @@
-===============================================================
-ASYNKKA
-Async-event handler wrapper.
-Tero Hannula 16.9.2026
-===============================================================
-GENERAL INFORMATION
-===============================================================
+---
+# ASYNKKA
+
+#### Async-event handler wrapper.
+
+#### Tero Hannula 16.9.2026
+
+---
+
+### GENERAL INFORMATION
+
+---
 
 Asynkka makes using async-related functions more convenient
 by giving callback-wrappers for them. You can define callbacks
@@ -23,9 +28,9 @@ Asynkka-handles supports fluent interface,
 therefore you can chain method calls to set properties.
 For example handle.SetLabel(...).SetCallback(...).SetOnRemove(...)
 
-===============================================================
-GENERAL INFORMATION - REQUEST
-===============================================================
+---
+### GENERAL INFORMATION - REQUEST
+---
 Whenever making Async-request, wrap it with either
 1) asynkka_request(requestID, callback)
 2) new AsynkkaRequest(requestID)
@@ -36,9 +41,9 @@ User may also remove it by themselves. This doesn't stop actual
 native async process, just removes Asynkka from being managed 
 and calling callbacks.
 
-===============================================================
-GENERAL INFORMATION - LISTENER
-===============================================================
+---
+### GENERAL INFORMATION - LISTENER
+---
 Whenever you want to listen to Async-event, make handle with either
 1) asynkka_request(eventType, callback)
 2) new AsynkkaRequest(eventType)
@@ -46,4 +51,4 @@ Both generate same handle.
 
 Listener must be removed manually, if no time-out period has been given.
 
-===============================================================
+---

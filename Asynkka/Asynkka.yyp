@@ -25,7 +25,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2026.100.0.1149",
   },
   "name":"Asynkka",
   "resources":[
@@ -79,6 +79,7 @@
     {"id":{"name":"__AsynkkaRequest__SetTimeOut","path":"scripts/__AsynkkaRequest__SetTimeOut/__AsynkkaRequest__SetTimeOut.yy",},},
     {"id":{"name":"__AsynkkaRequest_Execute","path":"scripts/__AsynkkaRequest_Execute/__AsynkkaRequest_Execute.yy",},},
     {"id":{"name":"Asynkka_Example_Log","path":"scripts/Asynkka_Example_Log/Asynkka_Example_Log.yy",},},
+    {"id":{"name":"Asynkka_EXPORT","path":"scripts/Asynkka_EXPORT/Asynkka_EXPORT.yy",},},
     {"id":{"name":"asynkka_listener","path":"scripts/asynkka_listener/asynkka_listener.yy",},},
     {"id":{"name":"asynkka_request","path":"scripts/asynkka_request/asynkka_request.yy",},},
     {"id":{"name":"Asynkka_SignatureCallback","path":"scripts/Asynkka_SignatureCallback/Asynkka_SignatureCallback.yy",},},

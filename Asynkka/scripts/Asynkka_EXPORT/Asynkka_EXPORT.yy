@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Asynkka_EXPORT",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Asynkka_EXPORT",
+  "parent":{
+    "name":"Asynkka",
+    "path":"folders/Asynkka.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
