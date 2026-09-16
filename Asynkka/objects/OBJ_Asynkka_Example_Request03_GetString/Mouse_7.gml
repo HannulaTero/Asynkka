@@ -12,9 +12,10 @@ new AsynkkaRequest()
   .SetOnSuccess(function(_context)
   {
     _context.text = async_load[? "result"];
+    Asynkka_Example_Log($"[Request] Get string success : {_context.text}");
   })
   .SetOnFailure(function(_context)
   {
-    show_debug_message("Get string cancelled");
+    Asynkka_Example_Log("[Request] Get string cancelled");
   });
 

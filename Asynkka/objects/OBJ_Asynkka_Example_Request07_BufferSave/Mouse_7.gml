@@ -11,11 +11,11 @@ new AsynkkaRequest(_request)
   .SetContext(self)
   .SetOnSuccess(function(_context)
   {
-    show_debug_message("Saving buffer has succeed!");
+    Asynkka_Example_Log("[Request] Saving buffer has succeed!");
   })
   .SetOnFailure(function(_context)
   {
-    show_debug_message("Saving buffer has failed!");
+    Asynkka_Example_Log("[Request] Saving buffer has failed!");
   });
 
 

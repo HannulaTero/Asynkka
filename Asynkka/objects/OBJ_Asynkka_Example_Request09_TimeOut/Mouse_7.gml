@@ -9,10 +9,10 @@ new AsynkkaRequest()
   .SetTimeOut(5.0)
   .SetCallback(function(_context)
   {
-    show_debug_message("Callback!");
+    Asynkka_Example_Log("[Request] Callback! Request has time-out.");
   })
-  .SetTimeOut(function(_context)
+  .SetOnTimeOut(function(_context)
   {
-    show_debug_message("Timed out!");
+    Asynkka_Example_Log("[Request] Timed out!");
   });
 

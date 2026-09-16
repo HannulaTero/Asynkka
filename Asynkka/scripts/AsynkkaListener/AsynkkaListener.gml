@@ -19,6 +19,7 @@ function AsynkkaListener(_event=undefined) constructor
   static SetEvent     = __AsynkkaListener__SetEvent;
   static SetLabel     = __AsynkkaListener__SetLabel;
   static SetOnRemove  = __AsynkkaListener__SetOnRemove;
+  static SetOnTimeOut = __AsynkkaListener__SetOnTimeOut;
   static SetTimeOut   = __AsynkkaListener__SetTimeOut;
   
   

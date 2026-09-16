@@ -8,6 +8,6 @@ new AsynkkaRequest()
   .SetContext("Context was this string!")
   .SetCallback(function(_context)
   {
-    show_debug_message(_context);
+    Asynkka_Example_Log($"[Request] context : {_context}");
   });
 

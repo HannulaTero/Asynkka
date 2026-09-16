@@ -9,7 +9,7 @@ self.handle = new AsynkkaListener()
   .SetCallback(function(_context)
   {
     _context.counter += 1;
-    show_debug_message("Async Dialog fired!");
-    show_debug_message($"Current count : {_context.counter}");
+    Asynkka_Example_Log("[Listener] Async Dialog fired! Counting.");
+    Asynkka_Example_Log($"[Listener] Current count : {_context.counter}");
   });
   

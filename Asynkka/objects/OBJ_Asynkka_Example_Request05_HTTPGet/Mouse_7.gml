@@ -19,20 +19,20 @@ self.handle = new AsynkkaRequest()
     {
       _progress = $"{(_contentLength / _sizeDownloaded) * 100.0} %"
     }
-    show_debug_message($"HTTP-get pending: {_progress}");
+    Asynkka_Example_Log($"[Request] HTTP-get pending: {_progress}");
   })
   
   // Handle succesful request.
   .SetOnSuccess(function(_context)
   {
-    show_debug_message("HTTP-get success!");
+    Asynkka_Example_Log("[Request] HTTP-get success!");
     self.data = async_load[? "result"];
   })
   
   // Handle failed request.
   .SetOnFailure(function(_context)
   {
-    show_debug_message("HTTP-get failure!");
+    Asynkka_Example_Log("[Request] HTTP-get failure!");
     self.failed = true;
   });
 

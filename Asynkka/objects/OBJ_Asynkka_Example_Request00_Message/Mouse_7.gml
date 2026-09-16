@@ -6,7 +6,7 @@ asynkka_request(
   show_message_async("Hello World!"), 
   function(_context)
   {
-    show_debug_message("Callback!");
+    Asynkka_Example_Log("[Request] Message Callback!");
   }
 );
 

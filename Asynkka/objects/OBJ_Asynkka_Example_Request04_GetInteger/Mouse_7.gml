@@ -12,9 +12,10 @@ new AsynkkaRequest()
   .SetOnSuccess(function(_context)
   {
     _context.integer = async_load[? "value"];
+    Asynkka_Example_Log($"[Request] Get integer success : {_context.integer}");
   })
   .SetOnFailure(function(_context)
   {
-    show_debug_message("Get integer cancelled");
+    Asynkka_Example_Log("[Request] Get integer cancelled");
   });
 

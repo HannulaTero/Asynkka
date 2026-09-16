@@ -11,13 +11,13 @@ self.handle = new AsynkkaRequest(_request)
   .SetContext(self)
   .SetOnSuccess(function(_context)
   {
-    show_debug_message("Loading buffer has succeed!");
-    show_debug_message("Contents were : ");
-    show_debug_message(buffer_peek(_context.buffer, 0, buffer_string));
+    Asynkka_Example_Log("[Request] Loading buffer has succeed!");
+    Asynkka_Example_Log("Contents were : ");
+    Asynkka_Example_Log(buffer_peek(_context.buffer, 0, buffer_string));
   })
   .SetOnFailure(function(_context)
   {
-    show_debug_message("Loading buffer has failed!");
+    Asynkka_Example_Log("[Request] Loading buffer has failed!");
   });
 
 

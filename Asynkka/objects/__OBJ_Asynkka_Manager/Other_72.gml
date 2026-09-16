@@ -7,6 +7,12 @@ __AsynkkaListener_Execute();
 // Check whether request exists.
 with(self.requests[? async_load[? "id"]])
 {
+  if (self.event != undefined)
+  && (self.event != event_number)
+  {
+    return;
+  }
+  
   self.Callback(self.context);
   
   
