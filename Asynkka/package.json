@@ -1,16 +1,18 @@
 {
   "name": "@terpatin/asynkka",
   "version": "1.0.0",
-  "description": "https://github.com/HannulaTero/Asynkka\r\n\r\nAsynkka makes using async-related functions more convenient by giving callback-wrappers for them. You can define callbacks for whenever request is succesful, failure, pending, timed out or pending. Then there is general callback, which is fired whenever async-event is done with request id. Asynkka also allows making listeners, which fire callbacks always related async-event happens.\r\n\r\nAsynkka-handles supports fluent interface, therefore you can chain method calls to set properties. For example handle.SetLabel(...).SetCallback(...).SetOnRemove(...)",
+  "description": "https://github.com/HannulaTero/Asynkka\r\nhttps://terohannula.itch.io/asynkka\r\n\r\nAsynkka makes using async-related functions more convenient by giving callback-wrappers for them. You can define callbacks for whenever request is succesful, failure, pending, timed out or pending. Then there is general callback, which is fired whenever async-event is done with request id. Asynkka also allows making listeners, which fire callbacks always related async-event happens.\r\n\r\nAsynkka-handles supports fluent interface, therefore you can chain method calls to set properties. For example handle.SetLabel(...).SetCallback(...).SetOnRemove(...)",
   "files": [
     "com.terpatin.asynkka-1.0.0.yymps"
   ],
   "keywords": [
     "async",
-    "wrapper"
+    "wrapper",
+    "asynchronous",
+    "handler"
   ],
-  "author": "terpatin",
-  "license": "",
+  "author": "Terpatin",
+  "license": "C:\\Users\\tero_\\files\\github\\MIT License 2026 Tero Hannula.txt",
   "gm": {
     "destination": "terpatin/asynkka",
     "icon": {

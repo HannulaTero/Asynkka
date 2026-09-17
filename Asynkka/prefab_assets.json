@@ -110,11 +110,11 @@
       "name": "Asynkka_EXPORT"
     },
     {
-      "export": 1,
+      "export": 2,
       "name": "asynkka_listener"
     },
     {
-      "export": 1,
+      "export": 2,
       "name": "asynkka_request"
     },
     {
@@ -122,11 +122,11 @@
       "name": "Asynkka_SignatureCallback"
     },
     {
-      "export": 1,
+      "export": 2,
       "name": "AsynkkaListener"
     },
     {
-      "export": 1,
+      "export": 2,
       "name": "AsynkkaRequest"
     },
     {
