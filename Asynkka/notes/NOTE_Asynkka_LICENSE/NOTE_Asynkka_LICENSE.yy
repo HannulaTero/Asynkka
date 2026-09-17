@@ -2,6 +2,7 @@
   "$GMNotes":"v1",
   "%Name":"NOTE_Asynkka_LICENSE",
   "name":"NOTE_Asynkka_LICENSE",
+  "openedOnFirstLoad":true,
   "parent":{
     "name":"Asynkka",
     "path":"folders/Asynkka.yy",

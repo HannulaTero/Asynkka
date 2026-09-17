@@ -1,0 +1,141 @@
+{
+  "Version": "1.0",
+  "assets": [
+    {
+      "export": 1,
+      "name": "__Asynkka"
+    },
+    {
+      "export": 1,
+      "name": "__Asynkka_Context"
+    },
+    {
+      "export": 1,
+      "name": "__Asynkka_GenerateLabel"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener_Execute"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest_Execute"
+    },
+    {
+      "export": 1,
+      "name": "__OBJ_Asynkka_Manager"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__Remove"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetCallback"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetContext"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetEvent"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetLabel"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetOnRemove"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetOnTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaListener__SetTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__Remove"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetCallback"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetContext"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetEvent"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetLabel"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetOnFailure"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetOnPending"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetOnRemove"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetOnSuccess"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetOnTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetRequest"
+    },
+    {
+      "export": 1,
+      "name": "__AsynkkaRequest__SetTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "Asynkka_EXPORT"
+    },
+    {
+      "export": 1,
+      "name": "asynkka_listener"
+    },
+    {
+      "export": 1,
+      "name": "asynkka_request"
+    },
+    {
+      "export": 1,
+      "name": "Asynkka_SignatureCallback"
+    },
+    {
+      "export": 1,
+      "name": "AsynkkaListener"
+    },
+    {
+      "export": 1,
+      "name": "AsynkkaRequest"
+    },
+    {
+      "export": 2,
+      "name": "NOTE_Asynkka_LICENSE"
+    },
+    {
+      "export": 2,
+      "name": "NOTE_Asynkka_README"
+    }
+  ]
+}

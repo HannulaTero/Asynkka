@@ -1,7 +1,9 @@
 
 
 /**
-* 
+* Checks whether there exists request with active target.
+* Executes in plain way, assumes it is succesful.
+* The manager itself implements event-specific ones.
 * 
 * @context __OBJ_Asynkka_Manager
 * @param {String} _key What is being accessed.

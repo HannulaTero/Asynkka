@@ -10,6 +10,9 @@
 ### GENERAL INFORMATION
 
 ---
+https://github.com/HannulaTero/Asynkka
+
+https://terohannula.itch.io/asynkka
 
 Asynkka makes using async-related functions more convenient
 by giving callback-wrappers for them. You can define callbacks
