@@ -101,10 +101,15 @@ function AsynkkaRequest(_request=undefined) constructor
   #region PRIVATE : HANDLE CONSTRUCTING.
   
   
+  // Set request id, if it's defined.
   if (_request != undefined)
   {
     self.SetRequest(_request);
   }
+  
+  
+  // Ensure manager exists.
+  __Asynkka_EnsureManager();
   
   
   #endregion

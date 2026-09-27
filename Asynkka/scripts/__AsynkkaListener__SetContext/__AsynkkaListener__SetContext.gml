@@ -1,7 +1,7 @@
 
 
 /**
-* Set the context, which is provided in callback.
+* Set the context, which is provided as argument in the callbacks.
 * 
 * @context AsynkkaListener
 * @param {Any} _context

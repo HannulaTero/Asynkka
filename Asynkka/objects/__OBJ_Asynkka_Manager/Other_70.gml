@@ -34,7 +34,7 @@ with(self.requests[? async_load[? "id"]])
       break;
     }
     default: {
-      throw($"Asynkka Social: Unknown status '{async_load[? "status"]}'.");
+      throw($"Asynkka Social: Unknown status '{async_load[? }status{]}'.");
       break;
     }
   }

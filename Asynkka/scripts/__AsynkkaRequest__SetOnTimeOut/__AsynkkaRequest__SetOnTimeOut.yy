@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__AsynkkaRequest__SetOnTimeOut",
   "parent":{
-    "name":"Methods Request",
-    "path":"folders/Asynkka/__Private/Methods Request.yy",
+    "name":"Methods x AsynkkaRequest",
+    "path":"folders/Asynkka/__Private/Methods x AsynkkaRequest.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

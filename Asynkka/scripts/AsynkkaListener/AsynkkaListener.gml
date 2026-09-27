@@ -45,7 +45,7 @@ function AsynkkaListener(_event=undefined) constructor
   self.context = { };
   
   
-  // Reference to timesource, used to time-out the request.
+  // Reference to timesource, used to time-out the listener.
   // @ignore 
   self.timeOut = undefined;
   
@@ -55,8 +55,7 @@ function AsynkkaListener(_event=undefined) constructor
   self.isRemoved = false;
     
     
-  // Called either way whenever request id fires async event.
-  // -> Listenere is fired before requests.
+  // Called either way whenever listeners event fires async event.
   // @ignore
   self.Callback = Asynkka_SignatureCallback;
     
@@ -73,10 +72,15 @@ function AsynkkaListener(_event=undefined) constructor
   #region PRIVATE : HANDLE CONSTRUCTING.
   
   
+  // Set the event, if it is defined.
   if (_event != undefined)
   {
     self.SetEvent(_event);
   }
+  
+  
+  // Ensure manager exists.
+  __Asynkka_EnsureManager();
   
   
   #endregion

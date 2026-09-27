@@ -15,17 +15,20 @@ function __AsynkkaRequest__SetTimeOut(_seconds=undefined)
     call_cancel(self.timeOut);
   }
   
+  
   if (_seconds == undefined)
   {
     self.timeOut = undefined;
     return self;
   }
   
+  
   self.timeOut = call_later(_seconds, time_source_units_seconds, function()
   {
     self.OnTimeOut(self.context);
     self.Remove();
   });
+  
   
   return self;
 }

@@ -5,6 +5,12 @@
   That's why the context is separately handled.
 */
 
+if (instance_number(object_index) > 1)
+{
+  instance_destroy();
+  exit;
+}
+
 
 // For convenience / faster access.
 self.context = __Asynkka_Context();

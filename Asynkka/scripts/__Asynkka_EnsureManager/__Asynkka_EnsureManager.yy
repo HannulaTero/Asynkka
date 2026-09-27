@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__Asynkka_EnsureManager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__Asynkka_EnsureManager",
+  "parent":{
+    "name":"Managing",
+    "path":"folders/Asynkka/__Private/Managing.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
