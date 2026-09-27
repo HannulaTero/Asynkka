@@ -21,7 +21,9 @@
     {"$GMFolder":"","%Name":"Methods x AsynkkaRequest","folderPath":"folders/Asynkka/__Private/Methods x AsynkkaRequest.yy","name":"Methods x AsynkkaRequest","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"license_Asynkka.txt","CopyToMask":-1,"filePath":"datafiles","name":"license_Asynkka.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -31,7 +33,6 @@
   "resources":[
     {"id":{"name":"FNT_Asynkka_Example_Small","path":"fonts/FNT_Asynkka_Example_Small/FNT_Asynkka_Example_Small.yy",},},
     {"id":{"name":"FNT_Asynkka_Example","path":"fonts/FNT_Asynkka_Example/FNT_Asynkka_Example.yy",},},
-    {"id":{"name":"NOTE_Asynkka_LICENSE","path":"notes/NOTE_Asynkka_LICENSE/NOTE_Asynkka_LICENSE.yy",},},
     {"id":{"name":"NOTE_Asynkka_README","path":"notes/NOTE_Asynkka_README/NOTE_Asynkka_README.yy",},},
     {"id":{"name":"__OBJ_Asynkka_Manager","path":"objects/__OBJ_Asynkka_Manager/__OBJ_Asynkka_Manager.yy",},},
     {"id":{"name":"OBJ_Asynkka_Example_Listener00_Dialog","path":"objects/OBJ_Asynkka_Example_Listener00_Dialog/OBJ_Asynkka_Example_Listener00_Dialog.yy",},},
